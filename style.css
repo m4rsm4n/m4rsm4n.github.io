@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+* {
+	color: white;
+}
+
+body {
+	background-color: rgb(31,30,30);
+}
+
+table, td{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: underline;
+}
+
+h3, h4, h5, h6 {
+	font-family: 'Roboto Mono', monospace;
+} 
+
+p, a {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+ul > li {
+	font-family: 'IBM Plex Mono', 'monospace';
+	margin-left: 1%;
+}
+
+nav > ul > li > a:link {
+	text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	background-color: coral;
+}
+
+nav > ul > li > a:visited {
+	color: gray;
+}
+
+#welcome {
+	font-family: Monoton;
+	font-size: 200%;
+}
+
+nav {
+	border-style: dashed;
+}
+
+p.post::first-letter {
+	font-weight: 700;
+	font-size: 150%;
+}
+
+p.post_info {
+	font-style: italic;
+}
+
+footer {
+	background: linear-gradient(rgb(31,30,30), white);
+}
+
+footer > p {
+	color: rgb(35,34,34);
+}
+
+figure {
+	border: 1.5px solid white;
+	border-radius: 25px;
+}
+
+figure > img {
+	border-radius: 25px;
+}
+
+figcaption {
+	font-family: 'IBM Plex Mono', monospace;
+	color: rgb(31,30,30);
+	background-color: white;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+table {
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+tbody > tr:hover {
+	background-color: coral;
+}
+
+#col_titles {
+	background-color: white;
+}
+
+#col_titles > td {
+	color: rgb(31,30,30);
+}

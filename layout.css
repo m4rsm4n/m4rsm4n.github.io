@@ -1,0 +1,60 @@
+nav > ul > li {
+	display: inline;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+#welcome {
+    width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	clear: left;
+}
+
+p, a {
+    letter-spacing: 0.5px;
+}
+
+th, td {
+	padding: 6px;
+}
+
+footer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+figure {
+	float: left;
+	padding: 5px;
+	margin: 10px;
+    max-width: 30%;
+}
+
+figure > img {
+	max-width: 96%;
+	max-height: 96%;
+}
+
+figcaption {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#scheds {
+	padding: 2%;
+}
+
+#col_titles {
+	text-align: center;
+}

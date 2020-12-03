@@ -1,0 +1,42 @@
+aside, header, main, section, article, footer, figure, figcaption {
+    display: block;
+}
+
+* {
+    padding: 0.002%;
+    margin: 0.4em;
+    background: transparent;
+}
+
+body {
+    line-height: 1.2 em;
+}
+
+p, a {
+    font-weight: 300;
+	font-size: 100%;
+}
+
+#welcome {
+    font-family: monospace;
+}
+
+nav {
+	text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#navbar {
+    box-sizing: border-box;
+    margin: auto;
+    width: max(70%);
+}
+
+nav > ul {
+    width: 95%;
+    list-style-type: none;
+}
